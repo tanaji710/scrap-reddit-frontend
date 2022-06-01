@@ -1,0 +1,24 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+
+  .table {
+    width: 50%;
+
+    img {
+      width: 60px;
+    }
+    a {
+      cursor: pointer;
+    }
+  }
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .model-img {
+    height: 300px;
+  }
+}
